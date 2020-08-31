@@ -7,10 +7,24 @@
 </head>
 
 <body>
-  <div id="duunarit"></div>
+  <div>
+    <table className="table table-striped table-sm">
+      <thead>
+        <tr>
+          <th>Nimi</th>
+          <th>Sukunimi</th>
+          <th>Osoite</th>
+          <th>Puhelinumero</th>
+        </tr>
+      </thead>
+      <tbody id="duunarit">
+        
+      </tbody>
+    </table>
+  </div>
   <script>
     var xmlhttp = new XMLHttpRequest();
-    var url = "./tyontekijat.json"; // 2
+    var url = "https://raw.githubusercontent.com/wesenbergg/json-kokeilu/master/tyontekijat.json"; // 2
     xmlhttp.onreadystatechange = function () {
       if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
         var myArr = JSON.parse(xmlhttp.responseText);
@@ -23,8 +37,13 @@
       var out = "";
       var i;
       for (i = 0; i < arr.length; i++) {
-        out += arr[i].firstName + " " +
-          arr[i].lastName + '<br>';
+        out += 
+        "<tr>" +
+          "<td>" + arr[i].etunimi + "</td>" +
+          "<td>" + arr[i].sukunimi + "</td>" + 
+          "<td>" + arr[i].osoite + "</td>" +
+          "<td>" + arr[i].puhnro + "</td>" + 
+        "</tr>";
       }
       document.getElementById("duunarit").innerHTML = out; // 6
     }

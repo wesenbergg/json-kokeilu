@@ -1,20 +1,28 @@
 {
   "tyontekijat": [
     {
-      "firstName": "Mauno",
-      "lastName": "Ahonen"
+      "etunimi": "Mauno",
+      "sukunimi": "Ahonen",
+      "osoite": "Mannerheimintie 1",
+      "puhnro": "050 555 1234"
     },
     {
-      "firstName": "Matti",
-      "lastName": "Näsä"
+      "etunimi": "Matti",
+      "sukunimi": "Näsä",
+      "osoite": "Mannerheimintie 2",
+      "puhnro": "050 555 5555"
     },
     {
-      "firstName": "Raimo",
-      "lastName": "Vormisto"
+      "etunimi": "Raimo",
+      "sukunimi": "Vormisto",
+      "osoite": "Mannerheimintie 3",
+      "puhnro": "050 123 1234"
     },
     {
-      "firstName": "Timo",
-      "lastName": "Silakka"
+      "etunimi": "Timo",
+      "sukunimi": "Silakka",
+      "osoite": "Mannerheimintie 4",
+      "puhnro": "050 123 5555"
     }
   ]
 }
