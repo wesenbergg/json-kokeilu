@@ -14,7 +14,8 @@
           <th>Nimi</th>
           <th>Sukunimi</th>
           <th>Osoite</th>
-          <th>Puhelinumero</th>
+          <th>Puhelinumero 1 (koti)</th>
+          <th>Puhelinumero 2 (työ)</th>
         </tr>
       </thead>
       <tbody id="duunarit">
@@ -42,7 +43,8 @@
           "<td>" + arr[i].etunimi + "</td>" +
           "<td>" + arr[i].sukunimi + "</td>" + 
           "<td>" + arr[i].osoite + "</td>" +
-          "<td>" + arr[i].puhnro + "</td>" + 
+          "<td>" + arr[i].puhnro[0] + "</td>" + 
+          "<td>" + (arr[i].puhnro[1] ? arr[i].puhnro[1]: "-") + "</td>" +
         "</tr>";
       }
       document.getElementById("duunarit").innerHTML = out; // 6

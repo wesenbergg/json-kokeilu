@@ -4,25 +4,25 @@
       "etunimi": "Mauno",
       "sukunimi": "Ahonen",
       "osoite": "Mannerheimintie 1",
-      "puhnro": "050 555 1234"
+      "puhnro": ["050 555 1234", "09 123 4567"]
     },
     {
       "etunimi": "Matti",
       "sukunimi": "Näsä",
       "osoite": "Mannerheimintie 2",
-      "puhnro": "050 555 5555"
+      "puhnro": ["050 555 5555"]
     },
     {
       "etunimi": "Raimo",
       "sukunimi": "Vormisto",
       "osoite": "Mannerheimintie 3",
-      "puhnro": "050 123 1234"
+      "puhnro": ["050 123 1234"]
     },
     {
       "etunimi": "Timo",
       "sukunimi": "Silakka",
       "osoite": "Mannerheimintie 4",
-      "puhnro": "050 123 5555"
+      "puhnro": ["050 123 5555"]
     }
   ]
 }
